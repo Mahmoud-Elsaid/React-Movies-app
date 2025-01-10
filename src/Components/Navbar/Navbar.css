@@ -1,0 +1,93 @@
+
+
+.navbar
+{
+    background-color: #111128  !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 98989 !important;
+}
+
+.navbar-brand
+{
+    color: #fff !important;
+    font-size: 35px !important;
+}
+
+.nav-link  , .navbar-nav .nav-link.active
+{
+    color: white !important;
+}
+
+.social-icon
+{
+    color: #fff !important;
+    font-size: 20px;
+}
+
+.social-icon:hover
+{
+    cursor: pointer;
+}
+
+.logout
+{
+    cursor: pointer;
+}
+
+
+.nav-link
+{
+    font-size: 20px !important;
+}
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:991px) {
+    .navbar
+    {
+        width: 50% !important;
+        margin: auto;
+        background-color: rgba(14, 44, 54, .5) !important;
+        height: 200px !important;
+        overflow: scroll !important;
+    
+    }
+
+    /* Scrollbar styling for WebKit browsers (Chrome, Edge, Safari) */
+    .navbar::-webkit-scrollbar {
+        width: 0px; /* Width of the scrollbar */
+    }
+
+
+    .navbar-brand
+    {
+        margin-left: 10%;
+    }
+
+    
+    .welcome
+    {
+        margin: 50px;
+    }
+
+    .logout
+    {
+        margin: 50px;
+    }
+
+    .navbar-nav
+    {
+        margin-left: 50px;
+    }
+    
+    .nav-icons
+    {
+        margin-left: 50px !important;
+    }
+
+}

@@ -1,0 +1,24 @@
+
+
+body
+{
+    background-color: #131722;
+    color: white;
+    font-family: "segoe ui light";
+}
+
+a
+{
+    color:white !important ;
+    text-decoration: none;
+}
+
+@media screen and (min-width:0px) and (max-width:991px) {
+
+    .container
+    {
+        margin-top: 100px !important;
+    }
+
+
+}
